@@ -39,11 +39,8 @@
 
 If the properties file was changed use the next sentence:
 
+`oozie job -config <properties filename> -rerun <job id> -Doozie.wf.rerun.failnodes=true`
+
 ### Get a list of running coordinator using filters
 
 `oozie jobs –filter user=<username> –jobtype=coordinator | grep RUNNING`
-
-
-`oozie job -config <properties filename> -rerun <job id> -Doozie.wf.rerun.failnodes=true`
-
-
