@@ -25,4 +25,16 @@
 
 `oozie jobs –filter user=[user_id]`
 
+### Run a job
+
+`oozie job -config <properties filename> -run `
+
+### Resumne a job
+
+`oozie job -rerun <job id to resume> -config <properties filename> -Doozie.wf.rerun.failnodes=true`
+
+If the properties file was changed use the next sentence:
+
+`oozie job -config <properties filename> -rerun <job id> -Doozie.wf.rerun.failnodes=true`
+
 
