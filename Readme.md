@@ -1,5 +1,6 @@
-## The next is the list of common commands to use with Yarn / Oozie
+### The next is the list of common commands to use with Yarn / Oozie
 
+## Yarn
 
 ### Yarn get the status with application id
 
@@ -20,6 +21,8 @@
 3. Get yarn log using: 
 
 `yarn logs -applicationId application_1570721854320_107114`
+
+## Oozie
 
 ### get jobs from from a user
 
