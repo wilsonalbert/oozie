@@ -29,7 +29,7 @@
 
 `oozie job -config <properties filename> -run `
 
-### Resumne a job
+### Resume a job
 
 `oozie job -rerun <job id to resume> -config <properties filename> -Doozie.wf.rerun.failnodes=true`
 
