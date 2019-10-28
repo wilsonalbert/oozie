@@ -4,7 +4,7 @@
 
 ### Yarn get the status with application id
 
-`yarn application -status [application_id]`
+`yarn application -status <application_id>`
 
 ### Get a list of running applications
 
@@ -12,7 +12,7 @@
  
 ### Get info for a task
 
-`oozie job -info [task_id] -len 100000`
+`oozie job -info <task_id> -len 100000`
 
 ### get yarn log fom oozie job
 
@@ -20,7 +20,8 @@
 2. change the name replacing job_ for application_: Result: `application_1570721854320_107114`
 3. Get yarn log using: 
 
-`yarn logs -applicationId application_1570721854320_107114`
+`yarn logs -applicationId <application_id>`
+
 
 ## Oozie
 
