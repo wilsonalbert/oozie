@@ -39,6 +39,14 @@
 
 If the properties file was changed use the next sentence:
 
+### List workflows
+oozie jobs -jobtype wf
+
+### List coordinators
+oozie jobs -jobtype coordinator
+
+
+
 `oozie job -config <properties filename> -rerun <job id> -Doozie.wf.rerun.failnodes=true`
 
 ### Get a list of running coordinator using filters
