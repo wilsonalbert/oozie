@@ -35,9 +35,12 @@
 
 ### Resume a job
 
-`oozie job -rerun <job id to resume> -config <properties filename> -Doozie.wf.rerun.failnodes=true`
+`oozie job -rerun <job id to resume> -Doozie.wf.rerun.failnodes=true`
 
 If the properties file was changed use the next sentence:
+
+`oozie job -rerun <job id to resume> -config <properties filename> -Doozie.wf.rerun.failnodes=true`
+
 
 ### List workflows
 oozie jobs -jobtype wf
