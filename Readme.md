@@ -54,4 +54,6 @@ oozie jobs -jobtype coordinator
 
 ### Get a list of running coordinator using filters
 
-`oozie jobs –filter user=<username> –jobtype=coordinator | grep RUNNING`
+`oozie jobs –filter user=<username> –jobtype=coordinator | grep RUNNING `
+
+Dont forget the space at the end
